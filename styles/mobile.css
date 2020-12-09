@@ -1,0 +1,848 @@
+@media screen and (min-width: 1150px) and (max-width: 1460px) {
+  header .logo {
+    height: 18vh;
+    top: 1rem;
+  }
+
+  nav {
+    height: 7vh;
+    font-size: 1.7rem;
+    background-color: purple;
+  }
+
+  /* main */
+  .main-top,
+  .main-bottom {
+     height: 7vh;
+  }
+
+  .slider {
+    height: 50vh;
+  }
+
+  /* boxes section */
+  main .boxes-container {
+    height: 18vh;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1149px) {
+  header {
+    height: 12vh;
+  }
+
+  nav {
+   /* background-color: blue; */
+  }
+
+  header .logo {
+    height: 15vh;
+    margin-top: 1vh;
+  }
+
+  nav {
+    height: 7vh;
+    width: 80%;
+    font-size: 1.3rem;
+  }
+
+  /* main */
+  .main-top,
+  .main-bottom {
+     height: 6vh;
+  }
+
+  .slider {
+    height: 45vh;
+  }
+
+  /* boxes section */
+  main .boxes-container {
+     height: 15vh;
+    margin: 2em auto;
+  }
+
+  main .boxes-container p{
+    font-size: 1.2rem !important;
+  }
+
+  main .info-container h1 {
+    font-size: 2.5rem;
+  }
+
+  main .green-bus {
+    height: 15vh;
+  }
+
+  .contact-details {
+    margin: 1.5em auto;
+    flex-direction: column;
+  }
+
+  .contact-welcome h1 {
+    padding:10px;
+  }
+
+}
+
+@media screen and (min-width: 771px) and (max-width: 799px) {
+  header {
+    height: 10vh;
+  }
+
+  nav {
+   background-color: red;
+  }
+
+  header .logo {
+    height: 14vh;
+    padding-top: 0.5rem;
+  }
+
+  nav {
+    height: 6vh;
+    width: 80%;
+    font-size: 1.3rem;
+  }
+
+  /* main */
+  .main-top,
+  .main-bottom {
+     height: 5vh;
+  }
+
+  .slider {
+    height: 35vh;
+  }
+
+  /* boxes section */
+  main .boxes-container {
+    height: 13vh;
+    margin: 2em auto;
+  }
+
+  main .boxes-container p{
+    font-size: 1.1rem !important;
+  }
+
+  main .info-container h1 {
+    font-size: 2.2rem;
+  }
+
+  main .green-bus {
+    height: 13vh;
+  }
+
+  .contact-details {
+    margin: 1.5em auto;
+    flex-direction: column;
+  }
+
+  .contact-welcome h1 {
+    padding:10px;
+  }
+  
+}
+  
+/* ==================================== */
+/* max-width 769px orientation: portrait */
+/* ========================================= */
+@media screen and (max-width: 770px) and (orientation: portrait) {
+  header {
+    height: 8vh;
+    border: 3px solid green;
+  }
+
+  header .logo {
+    height: 12vh;
+    top: 1vh;
+  }
+
+  nav {
+    height: 6vh;
+    width: 85%;
+    line-height: 6vh;
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+
+  .main-top,
+  .main-bottom {
+    height: 4vh;
+  }
+
+  .main-top,
+  .main-bottom,
+  main {
+    width: 99%;
+  }
+
+  main .slider {
+    height: 35vh;
+    top: 1.2vh;
+  }
+
+  .slider-arrows img {
+    width: 1.2em;
+  }
+
+  .slider-arrows img {
+    width: 5vw;
+  }
+
+  .dots-controllers {
+    height: 3vh;
+  }
+
+  main .boxes-container {
+    height: 20vh;
+    margin: 3em auto;
+  }
+  
+  .boxes-container .box img {
+    width: 40%;
+  }
+
+  .boxes-container .box p {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+  .box-yellow img,
+  .box-red img {
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  .box-yellow img:hover {
+    transform: translateX(-50%) rotate(160deg);
+    -webkit-transform: translateX(-50%) rotate(160deg);
+    -moz-transform: translateX(-50%) rotate(160deg);
+    -ms-transform: translateX(-50%) rotate(160deg);
+    -o-transform: translateX(-50%) rotate(160deg);
+  }
+
+  .box-yellow p {
+    top: 55%;
+    left: 15%;
+  }
+
+  .box-blue img {
+    top: 55%;
+    transform: translateY(0%);
+    right: 20%;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+  }
+
+  .box-blue img:hover {
+    transform: translateY(0%) scale(1.2);
+    -webkit-transform: translateY(0%) scale(1.2);
+    -moz-transform: translateY(0%) scale(1.2);
+    -ms-transform: translateY(0%) scale(1.2);
+    -o-transform: translateY(0%) scale(1.2);
+  }
+
+  .box-blue p {
+    top: 15%;
+    left: 15%;
+  }
+
+  .box-red p {
+    top: 65%;
+    right: 25%;
+  }
+
+  /* welcome info */
+  main .info-container {
+    padding: 1.5em 0 4em 0;
+  }
+
+  main .info-container h1 {
+    font-size: 2.2rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  main .info-container p {
+    font-size: 1.2rem;
+    padding: 1vh 0;
+    width: 90%;
+  }
+
+  main .green-bus {
+    height: 12vh;
+  }
+
+  .green-bus img {
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    top: -8vh;
+  }
+
+  footer {
+    background-color: #fff;
+    margin: 0.2vh;
+    height: auto;
+  }
+
+  /* ----------- SERVICE PAGE ---------------*/
+  #service-page {
+    padding: 1.5em 0;
+  }
+
+  .service-boxes {
+    height: 5vh;
+  }
+
+  .service-boxes .service-box {
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 30%;
+  }
+
+  .service-header {
+    margin: 1.5em 0;
+  }
+
+  .service-header h1 {
+    font-size: 1.2rem;
+    padding: 1vh;
+  }
+
+  .service-header a {
+    width: 99%;
+    font-size: 0.8rem;
+    padding: 0.4em;
+  }
+
+  .service-info h1 {
+    height: 1vh;
+    font-size: 1.2rem;
+    padding: 1.6em 0;
+    text-shadow: 0 0 0px #000;
+  }
+
+  .service-info h2 {
+    font-size: 0.9rem;
+    margin-bottom: 1em;
+  }
+
+  .service-info p {
+    font-size: 0.8rem;
+    line-height: 1.7em;
+    width: 90%;
+    letter-spacing: 1.1px;
+  }
+
+  .service-info i {
+    font-size: 2rem;
+  }
+
+  /* ------------ afterschool, preschool -----------------*/
+  .service-info-preschool {
+    margin-top: 2em;
+  }
+
+  .service-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .service-table h2 {
+    padding: 1em;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+
+  .service-table-p {
+    width: 100%;
+    border-bottom: 1px dashed var(--orange-color);
+  }
+
+  .service-table-p p {
+    width: 95%;
+    text-align: left;
+    padding: 0.3em;
+    margin-top: -1em;
+    font-size: 0.9rem;
+  }
+
+  .service-table i {
+    font-size: 0.7rem;
+  }
+
+  .service-links {
+    flex-direction: column;
+    padding-top: 1em;
+  }
+
+  .service-links a {
+    color: #000;
+    font-size: 1rem;
+    border: 1px dashed var(--orange-color);
+    padding: 0.2em;
+    margin: 0.3em;
+    width: 80%;
+  }
+
+  /* ------------ STAFF PAGE ---------------*/
+  .staff-box {
+    width: 100%;
+    min-height: 0vh;
+    margin: 1.2em 0;
+  }
+
+  .staff-box-img {
+    width: 100%;
+    height: 55vh;
+  }
+
+  .staff-box-info {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  .staff-box-info span {
+    font-size: 0.8rem;
+  }
+
+  .showHide {
+    font-size: 1rem;
+  }
+
+  /* ------------ GALLERY -------------*/
+  #gallery {
+    padding: 0em;
+  }
+
+  .photo figcaption {
+    margin-top: 0.5em;
+    font-size: 1rem;
+  }
+
+  /* ----------- CONTACT PAGE --------------*/
+  .contact-page {
+    padding: 0.1em 0;
+  }
+
+  .contact-welcome {
+    margin: 1px auto;
+  }
+
+  .contact-welcome h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-welcome img,
+  div.contact-left img,
+  div.contact-right img {
+    width: 80%;
+  }
+
+  .contact-welcome h2 {
+    font-size: 1rem;
+  }
+
+  .contact-details {
+    margin: 1em auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.contact-left,
+  div.contact-right {
+    margin: 0.5em 0;
+    padding: 1em;
+    width: 100%;
+  }
+
+  .contact-left > h2,
+  .contact-right > h2 {
+    font-size: 1.5rem;
+    padding: 0.4em;
+    text-shadow: 1px 1px 1px #000;
+  }
+
+  div.contact-left p,
+  div.contact-right p {
+    font-size: 0.9rem;
+  }
+
+  .fa-facebook,
+  .fa-envelope {
+    font-size: 1.4rem;
+  }
+
+  form input,
+  form textarea {
+    width: 90%;
+  }
+}
+
+/* ===================================== */
+/* max-width 768px orientation: landscape */
+/* ===================================== */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  header {
+    border: 5px solid green;
+  }
+
+  nav {
+    height: 9vh;
+    width: 85% !important;
+    line-height: 10vh;
+    font-size: 1.1rem;
+    font-weight: 200;
+  }
+
+  .slider-arrows img {
+    width: 2em;
+  }
+
+  .dots-controllers {
+    height: 4vh;
+    bottom: 4vh;
+  }
+
+  .main-top,
+  .main-bottom,
+  main {
+    width: 99%;
+  }
+
+  main .boxes-container {
+    height: 20vh;
+    margin: 2em auto;
+  }
+
+  main .info-container {
+    padding: 1.5em;
+  }
+
+  main .info-container h1 {
+    font-size: 2rem;
+  }
+
+  main .info-container p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .boxes-container .box p {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+  /* ----------- service page ------------- */
+  #service-page {
+    padding: 4.5vh 0;
+  }
+
+  .service-boxes .service-box {
+    font-size: 2vw;
+    width: 30%;
+  }
+
+  .service-header {
+    margin: 5vh 0;
+  }
+
+  .service-header h1 {
+    font-size: 7vh;
+  }
+
+  .service-header a {
+    width: 50%;
+    font-size: 3.8vh;
+    padding: 1.5vh;
+  }
+
+  .service-info h1 {
+    font-size: 7vh;
+    padding: 7vh 0;
+    line-height: 4vh;
+  }
+
+  .service-info h2 {
+    font-size: 5vh;
+  }
+
+  .service-info p {
+    font-size: 4vh;
+    line-height: 6.5vh;
+    width: 90%;
+    letter-spacing: 1.3px;
+  }
+
+  .service-info i {
+    font-size: 8vh;
+  }
+
+  /* services page */
+  .back-button {
+    width: 60%;
+    padding: 0.5rem 0;
+    margin-bottom: 1.3rem;
+    font-size: 0.8rem;
+  }
+
+  /* -------------- afterschool, preschool --------------*/
+  .service-info-preschool {
+    margin-top: 2em;
+  }
+
+  .service-table h2 {
+    padding: 1em;
+    font-size: 0.9rem;
+  }
+
+  .service-table-p p {
+    width: 65%;
+  }
+
+  .service-table i {
+    font-size: 0.8rem;
+  }
+
+  .service-links a {
+    font-size: 1rem;
+    margin-top: -0.8em;
+  }
+
+  /* ---------------- STAFF PAGE ----------------*/
+  .staff-box {
+    width: 48%;
+    min-height: 0vh;
+    margin: 1.2em 0;
+  }
+
+  .staff-box-img {
+    width: 100%;
+    height: 55vh;
+  }
+
+  .staff-box-info {
+    width: 90%;
+    padding: 1rem;
+    font-size: 0.8rem;
+    margin: 0 auto;
+  }
+
+  .staff-box-info span {
+    font-size: 0.7rem;
+  }
+
+  .showHide {
+    font-size: 0.8rem;
+  }
+
+ 
+  /* ----------- gallery ----------------*/
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0em 0;
+  }
+
+  .photo {
+    margin: 20px 0;
+    width: 40%;
+  }
+
+  .photo figcaption {
+    margin-top: 0.5em;
+    font-size: 1rem;
+  }
+
+  /* ----------- CONTACT PAGE --------------*/
+  .contact-page {
+    padding: 0.1em 0;
+  }
+
+  .contact-welcome {
+    margin: 2em auto;
+    padding: 1em;
+  }
+
+  .contact-welcome h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-welcome h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-details {
+    margin: 1em auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.contact-left,
+  div.contact-right {
+    margin: 0.8em 0;
+    padding: 1em;
+  }
+
+  form input,
+  form textarea {
+    width: 90%;
+  }
+}
+
+/* MOBILE DEVICES - small screen max-width: 568px */
+@media screen and (max-width: 568px) {
+  header {
+    height: 8vh;
+  }
+
+  header .logo {
+    height: 11vh;
+  }
+
+  nav {
+    width: 86%;
+    font-size: 0.8rem;
+    font-weight: 100;
+    height: 4vh;
+    /* background-color: purple; */
+    width: 85% !important;
+  }
+
+  /* main */
+  .main-top,
+  .main-bottom {
+     height: 5vh;
+  }
+
+  .slider {
+    height: 30vh !important;
+  }
+
+  .dots-controllers .dot {
+    width: 2.6vw;
+    height: 2.6vw;
+    border: none;
+    margin: 0 8px;
+  }
+
+  main .boxes-container {
+    height: 15vh;
+    margin: 2.5em auto;
+  }
+
+  .boxes-container .box p {
+    font-size: 1rem;
+  }
+
+  main .info-container h1 {
+    font-size: 1.7rem;
+    width: 90%;
+  }
+
+  main .info-container p {
+    padding: 0.7rem;
+    width: 90%;
+  }
+
+  footer {
+    padding: 1vh;
+  }
+
+  /* staff page */
+  .staff-box-img {
+    width: 100%;
+    height: 28vh;
+  }
+
+  .staff-box-info {
+    width: 100%;
+    padding: 0.5 1rem;
+    font-size: 0.8rem;
+  }
+
+  .staff-box-info span {
+    font-size: 0.7rem;
+  }
+
+  .showHide {
+    font-size: 0.8rem;
+  }
+
+  /* services page */
+  .back-button {
+    width: 60%;
+    padding: 0.7rem 0;
+    margin-bottom: 1.5rem;
+    font-size: 0.7rem;
+  }
+}
+
+/* MOBILE DEVICES - small screen max-width: 568px */
+@media screen and (max-width: 404px) {
+  header {
+    height: 7vh;
+  }
+
+  header .logo {
+    height: 9vh;
+  }
+
+  nav {
+    font-size: 0.9rem;
+    height: 6vh;
+  }
+
+  /* main */
+  .main-top,
+  .main-bottom {
+     height: 3vh;
+  }
+
+  .slider {
+    height: 28vh !important;
+  }
+
+  .dots-controllers .dot {
+    width: 2vw;
+    height: 2vw;
+    border: none;
+    margin: 0 8px;
+  }
+
+  main .boxes-container {
+    height: 15vh;
+    margin: 2.5em auto;
+  }
+
+  .boxes-container .box p {
+    font-size: 0.8rem;
+  }
+
+  main .info-container h1 {
+    font-size: 1.5rem;
+  }
+
+  main .info-container p {
+    font-size: 0.9em;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
