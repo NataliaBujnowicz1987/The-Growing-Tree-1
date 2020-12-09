@@ -152,6 +152,7 @@ main .info-container {
 .slider-arrows img {
   animation: arrowScale 5s infinite alternate;
   -webkit-animation: arrowScale 5s infinite alternate;
+
 }
 
 @keyframes arrowScale {
@@ -238,8 +239,7 @@ main .boxes-container {
 }
 
 .boxes-container .box p {
-  color: #000;
-  text-shadow: 0px 0px 5px #fff;
+
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -252,6 +252,7 @@ main .boxes-container {
     rgba(252, 204, 89, 1) 10%,
     rgba(215, 157, 20, 1) 90%
   );
+
 }
 
 .box-yellow img,
@@ -279,6 +280,8 @@ main .boxes-container {
   position: absolute;
   top: 25%;
   right: 10%;
+  color: #000;
+  text-shadow: 0px 0px 1px #fff;
 }
 
 .box-blue {
@@ -315,6 +318,8 @@ main .boxes-container {
   position: absolute;
   top: 25%;
   left: 10%;
+  color: #fff;
+  text-shadow: 0px 0px 1px #000;
 }
 
 .box-red {
@@ -335,6 +340,8 @@ main .boxes-container {
   position: absolute;
   top: 35%;
   right: 15%;
+  color: #fff;
+  text-shadow: 0px 0px 1px #000;
 }
 
 /* welcome info */
@@ -550,16 +557,17 @@ footer {
 
 .back-button {
   background-color: rgba(255, 213, 74, 0.6);
-  
   width: 50%;
   padding: 0.7rem 0;
   margin-bottom: 1.8rem;
   cursor: pointer;
   transition: linear 1s;
+  border: 1px dashed #fff;
 }
 
 .back-button:hover {
   background-color: rgba(255, 255, 255, 0.7);
+  border: 1px dashed #e89e12;;
 }
 
 .back-button a {

@@ -7,31 +7,26 @@
   nav {
     height: 7vh;
     font-size: 1.7rem;
-    background-color: purple;
   }
 
   /* main */
   .main-top,
   .main-bottom {
-     height: 7vh;
+     height: 8vh;
   }
 
   .slider {
-    height: 50vh;
+    height: 70vh;
   }
 
   /* boxes section */
   main .boxes-container {
-    height: 18vh;
+    height: 20vh;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 1149px) {
   header {
     height: 12vh;
-  }
-
-  nav {
-   /* background-color: blue; */
   }
 
   header .logo {
@@ -48,11 +43,11 @@
   /* main */
   .main-top,
   .main-bottom {
-     height: 6vh;
+     height: 7vh;
   }
 
   .slider {
-    height: 45vh;
+    height: 50vh;
   }
 
   /* boxes section */
@@ -87,10 +82,6 @@
 @media screen and (min-width: 771px) and (max-width: 799px) {
   header {
     height: 10vh;
-  }
-
-  nav {
-   background-color: red;
   }
 
   header .logo {
@@ -149,7 +140,6 @@
 @media screen and (max-width: 770px) and (orientation: portrait) {
   header {
     height: 8vh;
-    border: 3px solid green;
   }
 
   header .logo {
@@ -183,10 +173,6 @@
 
   .slider-arrows img {
     width: 1.2em;
-  }
-
-  .slider-arrows img {
-    width: 5vw;
   }
 
   .dots-controllers {
@@ -363,7 +349,6 @@
     font-size: 1rem;
   }
 
-
   .service-table-p {
     width: 100%;
     border-bottom: 1px dashed var(--orange-color);
@@ -496,10 +481,6 @@
 /* max-width 768px orientation: landscape */
 /* ===================================== */
 @media screen and (max-width: 768px) and (orientation: landscape) {
-  header {
-    border: 5px solid green;
-  }
-
   nav {
     height: 9vh;
     width: 85% !important;
@@ -720,7 +701,6 @@
     font-size: 0.8rem;
     font-weight: 100;
     height: 4vh;
-    /* background-color: purple; */
     width: 85% !important;
   }
 
