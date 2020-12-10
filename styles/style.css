@@ -953,9 +953,11 @@ input[type="submit"]:hover {
 
 
 /* bigger devices */
-@media screen and (min-width: 1370px) {
+/* @media screen and (min-width: 1370px) */
+
+@media screen and (min-width: 1461px) {
   nav {
-    height: 6vh;
+    height: 5.5vh;
     width: 85%;
     font-size: 2rem;
     /* padding-top: 0.2em; */
