@@ -185,10 +185,15 @@
     height: 35vh;
     top: 1.2vh;
   }
+  
+  .slider-arrows {
+    border: 2px dotted red;
+    height: 35px;
+  }
 
-  /* .slider-arrows img {
-    width: 1.2em;
-  } */
+  .slider-arrows img {
+    /* width: 1.2em; */
+  }
 
   .dots-controllers {
     height: 3vh;
