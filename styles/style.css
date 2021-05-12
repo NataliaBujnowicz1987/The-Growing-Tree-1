@@ -138,8 +138,8 @@ main .info-container {
 .slider-arrows {
   width: 100%;
   height: auto;
-  max-height: 60px;
-  border: 2px solid red;
+  max-height: 20%;
+  border: 2px solid green;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

@@ -186,9 +186,9 @@
     top: 1.2vh;
   }
 
-  .slider-arrows img {
+  /* .slider-arrows img {
     width: 1.2em;
-  }
+  } */
 
   .dots-controllers {
     height: 3vh;
@@ -504,9 +504,9 @@
     font-weight: 200;
   }
 
-  .slider-arrows img {
+  /* .slider-arrows img {
     width: 2em;
-  }
+  } */
 
   .dots-controllers {
     height: 4vh;
