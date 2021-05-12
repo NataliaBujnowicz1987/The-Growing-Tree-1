@@ -26,34 +26,36 @@
 }
 @media screen and (min-width: 800px) and (max-width: 1149px) {
   header {
-    height: 12vh;
+    height: 7vh;
   }
 
   header .logo {
-    height: 15vh;
+    height: 13vh;
     margin-top: 1vh;
+    z-index: 44;
   }
 
   nav {
     height: 7vh;
-    width: 80%;
+    width: 85% !important;
     font-size: 1.3rem;
+    border: 2px solid red;
   }
 
   /* main */
   .main-top,
   .main-bottom {
-     height: 7vh;
+     height: 5.5vh;
   }
 
   .slider {
-    height: 50vh;
+    height: 45vh;
   }
 
   /* boxes section */
   main .boxes-container {
-     height: 15vh;
-    margin: 2em auto;
+    height: 13vh;
+    margin: 3em auto;
   }
 
   main .boxes-container p{
@@ -65,7 +67,20 @@
   }
 
   main .green-bus {
-    height: 15vh;
+    height: 16vh;
+  }
+
+  .service-boxes {
+    height: 7vh;
+  }
+
+  .staff-box {
+    width: 40% !important;
+    margin: 1.5em 2em;
+  }
+
+  .staff-box-img {
+    height: 25vh;
   }
 
   .contact-details {

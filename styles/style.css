@@ -138,6 +138,8 @@ main .info-container {
 .slider-arrows {
   width: 100%;
   height: auto;
+  max-height: 60px;
+  border: 2px solid red;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -152,7 +154,6 @@ main .info-container {
 .slider-arrows img {
   animation: arrowScale 1.2s ease-in-out infinite alternate;
   -webkit-animation: arrowScale 1.2s linear infinite alternate;
-
 }
 
 @keyframes arrowScale {
@@ -226,6 +227,7 @@ main .boxes-container {
   -moz-transition: 2s linear all;
   -ms-transition: 2s linear all;
   -o-transition: 2s linear all;
+  padding: 2em;
 }
 
 .box:hover {
@@ -372,7 +374,7 @@ main .info-container p {
 }
 
 main .green-bus {
-  height: 20vh;
+  height: 25vh;
   width: 99%;
   position: relative;
   margin-bottom: -10vh;
@@ -696,7 +698,6 @@ footer a{
   border-bottom: 1px dashed var(--green-color);
 }
 
-
 .staff-box-info span {
   color: green;
   font-size: 0.8rem;
@@ -712,7 +713,6 @@ footer a{
   font-size: 1.1rem;
   padding-right: 0.3em;
 }
-
 
 .showHide {
   display: none;
