@@ -149,6 +149,7 @@ main .info-container {
   -o-transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
+  opacity: 0.5;
 }
 
 /* .slider-arrows img {
