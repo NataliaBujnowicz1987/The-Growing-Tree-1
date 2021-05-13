@@ -1,3 +1,13 @@
+// loading page
+// document.onreadystatechange = function () {
+//     if (document.readyState !== "complete") {
+//         document.querySelector("#website").style.visibility = "hidden";
+//         document.querySelector("#loader").style.visibility = "visible";
+//     } else {
+//         document.querySelector("#loader").style.display = "none";
+//         document.querySelector("#website").style.visibility = "visible";
+//     }
+// }
 
 // slider img
 let slideIndex = 1;

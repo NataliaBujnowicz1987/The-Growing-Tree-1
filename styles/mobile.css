@@ -26,7 +26,7 @@
 }
 @media screen and (min-width: 800px) and (max-width: 1149px) {
   header {
-    height: 7vh;
+    height: 10vh;
   }
 
   header .logo {
@@ -39,13 +39,12 @@
     height: 7vh;
     width: 85% !important;
     font-size: 1.3rem;
-    border: 2px solid red;
   }
 
   /* main */
   .main-top,
   .main-bottom {
-     height: 5.5vh;
+     height: 6.2vh;
   }
 
   .slider {
