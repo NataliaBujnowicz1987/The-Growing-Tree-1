@@ -24,6 +24,7 @@
     height: 20vh;
   }
 }
+
 @media screen and (min-width: 800px) and (max-width: 1149px) {
   header {
     height: 10vh;
@@ -506,10 +507,6 @@
     font-size: 1.1rem;
     font-weight: 200;
   }
-
-  /* .slider-arrows img {
-    width: 2em;
-  } */
 
   .dots-controllers {
     height: 4vh;
